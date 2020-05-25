@@ -1,0 +1,19 @@
+@media (min-width: 1500px) {
+    .contacts__block:nth-child(1)::after {
+        width: 382px;
+    }
+    .container {
+        max-width: 1400px;
+    }
+}
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+    .header {
+        max-width: 680px;
+    }
+    .mobile-menu {
+        left: 272px;
+    }
+}

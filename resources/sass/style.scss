@@ -1,0 +1,45 @@
+@import 'libs';
+@import 'settings';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+.container-sm {
+    max-width: 1164px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+::selection {
+    background: $purple;
+    color: #fff;
+}
+
+
+.b-lazy {
+    opacity:0;
+    transform: scale(3);
+    transition: all 800ms;
+ }
+ .b-loaded {
+    opacity:1;
+    transform: scale(1);
+ }
+
+.swiper-slide {
+    height: 272px !important;
+}
+.swiper-container {
+    width: 24%;
+    top: 0;
+    right: 0;
+}
+
+@import 'media';
